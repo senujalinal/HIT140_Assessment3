@@ -1,10 +1,16 @@
 # HIT140 Assessment 3
 
-This repository is for the FIFA World Cup 2026 linear regression group project in HIT140 Foundations of Data Science.
+This repository contains the FIFA World Cup 2026 linear regression group project for HIT140 Foundations of Data Science.
 
-The project contains two required tasks:
+- Model 2.1 predicts match goal difference from 104 matches and exactly eight pre-match explanatory variables.
+- Model 2.2 predicts team goals from 208 team-match observations and exactly eight pre-match explanatory variables.
 
-- Model 2.1 predicts the goal difference for 104 matches using exactly eight pre-match explanatory variables.
-- Model 2.2 predicts a team's goals using 208 team-match observations and exactly eight pre-match explanatory variables.
+All data preparation, exploratory analysis, modelling and visualisation are completed in Python. Run the complete workflow with:
 
-All data preparation, analysis and visualisation will be completed in Python. The dataset and analysis files will be added gradually as the group completes and reviews each part.
+```bash
+python3 -m pip install -r requirements.txt
+python3 run_all.py
+```
+
+The workflow rebuilds both modelling tables, runs chronological model comparisons, creates the figures and verifies the required row counts, predictor counts and holdout design.
+
