@@ -1,0 +1,30 @@
+{
+  "source": "/Users/senujalinal/Desktop/CDU/Foundations of Data science/Assign 3/HIT140_Assessment3_Local_Complete/data/raw/worldcup_2026.json",
+  "source_sha256": "0ae2c18109b5aa86bc11928b43586ca430c234804d5bbf808d2c3bf2051ecfca",
+  "source_match_count": 104,
+  "model_2_1_rows": 104,
+  "model_2_1_predictors": [
+    "team1_attack",
+    "team1_defence",
+    "team2_attack",
+    "team2_defence",
+    "points_difference",
+    "win_rate_difference",
+    "host_advantage",
+    "knockout_stage"
+  ],
+  "model_2_2_rows": 208,
+  "model_2_2_predictors": [
+    "team_attack",
+    "team_defence",
+    "opponent_attack",
+    "opponent_defence",
+    "team_points_per_match",
+    "opponent_points_per_match",
+    "team_host_status",
+    "knockout_stage"
+  ],
+  "same_day_update_rule": "Features are frozen before all matches on a date and histories are updated after that date's rows are created.",
+  "first_appearance_rule": "Bayesian neutral priors: 3 matches, 1.35 goals for and against, 1.0 point per match, and 1/3 win rate.",
+  "leakage_check": "Targets and events from the current or future matches are not read when predictors are calculated."
+}
