@@ -1,0 +1,8 @@
+{
+  "model_2_1_exact_rows": true,
+  "model_2_1_exact_predictors": true,
+  "model_2_2_exact_rows": true,
+  "model_2_2_exact_predictors": true,
+  "chronological_holdout_model_2_1": true,
+  "chronological_holdout_model_2_2": true
+}
