@@ -1,0 +1,188 @@
+{
+  "model_2_1": {
+    "rows": 104,
+    "target": "goal_difference",
+    "target_summary": {
+      "mean": 0.4423076923076923,
+      "standard_deviation": 2.0136761681639666,
+      "median": 0.0,
+      "first_quartile": -1.0,
+      "third_quartile": 2.0,
+      "minimum": -4.0,
+      "maximum": 6.0,
+      "zero_proportion": 0.27884615384615385,
+      "development_mean_matches_1_to_83": 0.6144578313253012,
+      "holdout_mean_matches_84_to_104": -0.23809523809523808
+    },
+    "feature_target_correlations": [
+      {
+        "feature": "team2_defence",
+        "pearson_correlation_with_target": 0.26850492863236103
+      },
+      {
+        "feature": "points_difference",
+        "pearson_correlation_with_target": 0.26586807931271156
+      },
+      {
+        "feature": "team2_attack",
+        "pearson_correlation_with_target": -0.1901442888648765
+      },
+      {
+        "feature": "win_rate_difference",
+        "pearson_correlation_with_target": 0.1550216185213461
+      },
+      {
+        "feature": "team1_defence",
+        "pearson_correlation_with_target": -0.13030803492683582
+      },
+      {
+        "feature": "host_advantage",
+        "pearson_correlation_with_target": 0.1283508869450248
+      },
+      {
+        "feature": "knockout_stage",
+        "pearson_correlation_with_target": -0.11595562995033397
+      },
+      {
+        "feature": "team1_attack",
+        "pearson_correlation_with_target": -0.0005261474371731534
+      }
+    ],
+    "strongest_feature_pairs": [
+      {
+        "feature_1": "points_difference",
+        "feature_2": "win_rate_difference",
+        "correlation": 0.9551236535494296
+      },
+      {
+        "feature_1": "team1_defence",
+        "feature_2": "knockout_stage",
+        "correlation": -0.5805771565666824
+      },
+      {
+        "feature_1": "team1_attack",
+        "feature_2": "win_rate_difference",
+        "correlation": 0.5257827300968748
+      },
+      {
+        "feature_1": "team1_attack",
+        "feature_2": "points_difference",
+        "correlation": 0.5094200175218725
+      },
+      {
+        "feature_1": "team1_attack",
+        "feature_2": "knockout_stage",
+        "correlation": 0.5004854123878256
+      },
+      {
+        "feature_1": "team1_defence",
+        "feature_2": "points_difference",
+        "correlation": -0.48191127119516414
+      },
+      {
+        "feature_1": "team1_defence",
+        "feature_2": "win_rate_difference",
+        "correlation": -0.44477426050104124
+      },
+      {
+        "feature_1": "win_rate_difference",
+        "feature_2": "knockout_stage",
+        "correlation": 0.3617966568212071
+      }
+    ],
+    "correlation_matrix_condition_number": 101.5673390143985
+  },
+  "model_2_2": {
+    "rows": 208,
+    "target": "team_goals",
+    "target_summary": {
+      "mean": 1.4423076923076923,
+      "standard_deviation": 1.3854099871172831,
+      "median": 1.0,
+      "first_quartile": 0.0,
+      "third_quartile": 2.0,
+      "minimum": 0.0,
+      "maximum": 7.0,
+      "zero_proportion": 0.2692307692307692,
+      "development_mean_matches_1_to_83": 1.463855421686747,
+      "holdout_mean_matches_84_to_104": 1.3571428571428572
+    },
+    "feature_target_correlations": [
+      {
+        "feature": "opponent_defence",
+        "pearson_correlation_with_target": 0.2183434895536744
+      },
+      {
+        "feature": "opponent_points_per_match",
+        "pearson_correlation_with_target": -0.16416687497048985
+      },
+      {
+        "feature": "team_defence",
+        "pearson_correlation_with_target": -0.10477892480729313
+      },
+      {
+        "feature": "team_host_status",
+        "pearson_correlation_with_target": 0.07442334727209679
+      },
+      {
+        "feature": "team_attack",
+        "pearson_correlation_with_target": 0.07049358962381698
+      },
+      {
+        "feature": "opponent_attack",
+        "pearson_correlation_with_target": -0.06933198597229911
+      },
+      {
+        "feature": "knockout_stage",
+        "pearson_correlation_with_target": -0.055077878116777654
+      },
+      {
+        "feature": "team_points_per_match",
+        "pearson_correlation_with_target": 0.04200123225277414
+      }
+    ],
+    "strongest_feature_pairs": [
+      {
+        "feature_1": "opponent_attack",
+        "feature_2": "opponent_points_per_match",
+        "correlation": 0.7301717758700323
+      },
+      {
+        "feature_1": "team_attack",
+        "feature_2": "team_points_per_match",
+        "correlation": 0.7301717758700321
+      },
+      {
+        "feature_1": "team_defence",
+        "feature_2": "team_points_per_match",
+        "correlation": -0.6717158270830493
+      },
+      {
+        "feature_1": "opponent_defence",
+        "feature_2": "opponent_points_per_match",
+        "correlation": -0.6717158270830493
+      },
+      {
+        "feature_1": "team_points_per_match",
+        "feature_2": "knockout_stage",
+        "correlation": 0.6329014551458669
+      },
+      {
+        "feature_1": "opponent_points_per_match",
+        "feature_2": "knockout_stage",
+        "correlation": 0.6329014551458668
+      },
+      {
+        "feature_1": "team_points_per_match",
+        "feature_2": "opponent_points_per_match",
+        "correlation": 0.5100455893587867
+      },
+      {
+        "feature_1": "team_attack",
+        "feature_2": "knockout_stage",
+        "correlation": 0.41990957993895967
+      }
+    ],
+    "correlation_matrix_condition_number": 32.44781010338783
+  }
+}
