@@ -1,5 +1,5 @@
 {
-  "source": "/Users/senujalinal/Desktop/CDU/Foundations of Data science/Assign 3/HIT140_Assessment3_Local_Complete/data/raw/worldcup_2026.json",
+  "source": "data/raw/worldcup_2026.json",
   "source_sha256": "0ae2c18109b5aa86bc11928b43586ca430c234804d5bbf808d2c3bf2051ecfca",
   "source_match_count": 104,
   "model_2_1_rows": 104,
